@@ -6,44 +6,25 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'The Nikah Matrimony',
+        description: "I led the development of a matrimony mobile app where we utilized Firebase extensively. Firebase provided secure authentication, seamless file storage through Firebase Storage, and efficient data management using Firestore, Firebase's NoSQL database solution. To enhance user privacy, we implemented AES encryption for images and integrated OCR functionality for text recognition within the app. We also employed a specialized image blurring library to ensure user data confidentiality. This combination of Firebase services and advanced features was crucial in delivering a secure and user-friendly matrimony app.",
+        tools: ['Android Development' , 'Kotlin' , 'XML' , 'Firebase' , 'AES' , 'OCR','API'],
+        role: 'Android Developer',
         code: '',
         demo: '',
         image: crefin,
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        name: 'CyberCensor',
+        description: 'I developed Cybercensor, a web app using Firebase and ReactJS, integrated with Twitter and YouTube APIs. It employs machine learning algorithms like Random Forests, hosted on Flask locally, to detect hate speech and cyberbullying on social media. By automating the detection process, Cybercensor aims to reduce human effort and swiftly flag harmful content, enhancing online safety and efficiency.',
+        tools: ['React','Flask','API', 'Firebase' ,'javascrip' ,'node'],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
         image: travel,
     },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-        image: realEstate,
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
-    }
+
 ];
 
 
